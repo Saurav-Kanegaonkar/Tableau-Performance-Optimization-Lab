@@ -2,7 +2,7 @@
 
 - Project: Tableau Performance Optimization Lab
 - GitHub: https://github.com/Saurav-Kanegaonkar/Tableau-Performance-Optimization-Lab
-- Status: artifact ready
+- Status: pushed
 - Resume Link Ready: Yes
 
 ## What Exists
