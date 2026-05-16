@@ -1,0 +1,5 @@
+signal,segment,status,finding,risk
+"Sales scorecard","Executive","Slow","Complex SQL","High"
+"Finance KPI","Finance","Fresh","Definition cleanup","High"
+"Ops dashboard","Operations","Fresh","No issue","Low"
+"Ad hoc workbook","Sales","Stale","Owner gap","Medium"
