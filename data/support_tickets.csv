@@ -1,0 +1,721 @@
+ticket_id,created_date,workbook_id,issue_type,resolution_hours,requester_department
+T0001,2026-02-01,WB001,Access request,69,Sales Ops
+T0002,2026-02-02,WB002,Access request,43,Executive
+T0003,2026-02-03,WB003,Definition question,44,Operations
+T0004,2026-02-04,WB004,Definition question,55,Operations
+T0005,2026-02-05,WB005,Refresh failure,16,Finance
+T0006,2026-02-06,WB006,Access request,23,Marketing
+T0007,2026-02-07,WB007,Slow load,52,Marketing
+T0008,2026-02-08,WB008,Refresh failure,48,Sales Ops
+T0009,2026-02-09,WB009,Definition question,30,Marketing
+T0010,2026-02-10,WB010,Metric mismatch,52,Marketing
+T0011,2026-02-11,WB011,Access request,10,Sales Ops
+T0012,2026-02-12,WB012,Slow load,19,Operations
+T0013,2026-02-13,WB013,Metric mismatch,24,Support
+T0014,2026-02-14,WB014,Slow load,5,Sales Ops
+T0015,2026-02-15,WB015,Metric mismatch,44,Support
+T0016,2026-02-16,WB016,Slow load,13,Operations
+T0017,2026-02-17,WB017,Slow load,24,Support
+T0018,2026-02-18,WB018,Definition question,31,Finance
+T0019,2026-02-19,WB019,Metric mismatch,13,Executive
+T0020,2026-02-20,WB020,Access request,33,Marketing
+T0021,2026-02-21,WB021,Slow load,4,Marketing
+T0022,2026-02-22,WB022,Refresh failure,37,Sales Ops
+T0023,2026-02-23,WB023,Slow load,2,Sales Ops
+T0024,2026-02-24,WB024,Refresh failure,53,Executive
+T0025,2026-02-25,WB025,Slow load,8,Support
+T0026,2026-02-26,WB026,Metric mismatch,49,Marketing
+T0027,2026-02-27,WB027,Access request,53,Executive
+T0028,2026-02-28,WB028,Refresh failure,42,Operations
+T0029,2026-03-01,WB001,Metric mismatch,1,Operations
+T0030,2026-03-02,WB002,Slow load,12,Marketing
+T0031,2026-03-03,WB003,Definition question,47,Sales Ops
+T0032,2026-03-04,WB004,Access request,16,Finance
+T0033,2026-03-05,WB005,Definition question,27,Marketing
+T0034,2026-03-06,WB006,Refresh failure,9,Support
+T0035,2026-03-07,WB007,Definition question,5,Sales Ops
+T0036,2026-03-08,WB008,Metric mismatch,23,Operations
+T0037,2026-03-09,WB009,Slow load,61,Executive
+T0038,2026-03-10,WB010,Access request,62,Executive
+T0039,2026-03-11,WB011,Slow load,34,Operations
+T0040,2026-03-12,WB012,Slow load,39,Executive
+T0041,2026-03-13,WB013,Definition question,50,Marketing
+T0042,2026-03-14,WB014,Metric mismatch,47,Sales Ops
+T0043,2026-03-15,WB015,Definition question,17,Operations
+T0044,2026-03-16,WB016,Refresh failure,8,Sales Ops
+T0045,2026-03-17,WB017,Metric mismatch,63,Operations
+T0046,2026-03-18,WB018,Access request,44,Operations
+T0047,2026-03-19,WB019,Slow load,18,Support
+T0048,2026-03-20,WB020,Metric mismatch,13,Marketing
+T0049,2026-03-21,WB021,Access request,60,Sales Ops
+T0050,2026-03-22,WB022,Slow load,68,Executive
+T0051,2026-03-23,WB023,Slow load,20,Marketing
+T0052,2026-03-24,WB024,Metric mismatch,24,Support
+T0053,2026-03-25,WB025,Metric mismatch,45,Finance
+T0054,2026-03-26,WB026,Slow load,26,Sales Ops
+T0055,2026-03-27,WB027,Access request,41,Marketing
+T0056,2026-03-28,WB028,Access request,15,Executive
+T0057,2026-03-29,WB001,Slow load,69,Finance
+T0058,2026-03-30,WB002,Definition question,14,Support
+T0059,2026-03-31,WB003,Metric mismatch,32,Marketing
+T0060,2026-04-01,WB004,Access request,63,Marketing
+T0061,2026-04-02,WB005,Refresh failure,15,Finance
+T0062,2026-04-03,WB006,Slow load,4,Marketing
+T0063,2026-04-04,WB007,Definition question,4,Support
+T0064,2026-04-05,WB008,Refresh failure,70,Support
+T0065,2026-04-06,WB009,Definition question,48,Executive
+T0066,2026-04-07,WB010,Refresh failure,50,Support
+T0067,2026-04-08,WB011,Refresh failure,59,Sales Ops
+T0068,2026-04-09,WB012,Access request,18,Marketing
+T0069,2026-04-10,WB013,Definition question,32,Finance
+T0070,2026-04-11,WB014,Metric mismatch,36,Support
+T0071,2026-04-12,WB015,Slow load,59,Finance
+T0072,2026-04-13,WB016,Slow load,19,Marketing
+T0073,2026-04-14,WB017,Access request,57,Sales Ops
+T0074,2026-04-15,WB018,Refresh failure,52,Executive
+T0075,2026-04-16,WB019,Metric mismatch,26,Finance
+T0076,2026-04-17,WB020,Definition question,25,Support
+T0077,2026-04-18,WB021,Definition question,61,Sales Ops
+T0078,2026-04-19,WB022,Slow load,37,Marketing
+T0079,2026-04-20,WB023,Slow load,34,Support
+T0080,2026-04-21,WB024,Access request,4,Support
+T0081,2026-04-22,WB025,Access request,71,Sales Ops
+T0082,2026-04-23,WB026,Refresh failure,23,Finance
+T0083,2026-04-24,WB027,Refresh failure,6,Support
+T0084,2026-04-25,WB028,Slow load,50,Sales Ops
+T0085,2026-04-26,WB001,Access request,27,Marketing
+T0086,2026-04-27,WB002,Slow load,72,Executive
+T0087,2026-04-28,WB003,Access request,8,Operations
+T0088,2026-04-29,WB004,Access request,59,Support
+T0089,2026-04-30,WB005,Access request,17,Marketing
+T0090,2026-05-01,WB006,Slow load,12,Finance
+T0091,2026-02-01,WB007,Refresh failure,46,Marketing
+T0092,2026-02-02,WB008,Access request,30,Operations
+T0093,2026-02-03,WB009,Slow load,6,Marketing
+T0094,2026-02-04,WB010,Refresh failure,9,Finance
+T0095,2026-02-05,WB011,Metric mismatch,70,Finance
+T0096,2026-02-06,WB012,Definition question,36,Executive
+T0097,2026-02-07,WB013,Refresh failure,71,Sales Ops
+T0098,2026-02-08,WB014,Metric mismatch,45,Finance
+T0099,2026-02-09,WB015,Access request,21,Operations
+T0100,2026-02-10,WB016,Access request,33,Finance
+T0101,2026-02-11,WB017,Access request,32,Finance
+T0102,2026-02-12,WB018,Slow load,38,Finance
+T0103,2026-02-13,WB019,Metric mismatch,11,Sales Ops
+T0104,2026-02-14,WB020,Metric mismatch,58,Marketing
+T0105,2026-02-15,WB021,Refresh failure,26,Sales Ops
+T0106,2026-02-16,WB022,Refresh failure,47,Executive
+T0107,2026-02-17,WB023,Access request,1,Support
+T0108,2026-02-18,WB024,Refresh failure,52,Support
+T0109,2026-02-19,WB025,Metric mismatch,45,Finance
+T0110,2026-02-20,WB026,Access request,51,Sales Ops
+T0111,2026-02-21,WB027,Refresh failure,48,Support
+T0112,2026-02-22,WB028,Metric mismatch,25,Finance
+T0113,2026-02-23,WB001,Access request,64,Executive
+T0114,2026-02-24,WB002,Definition question,72,Marketing
+T0115,2026-02-25,WB003,Metric mismatch,3,Support
+T0116,2026-02-26,WB004,Metric mismatch,41,Sales Ops
+T0117,2026-02-27,WB005,Access request,38,Executive
+T0118,2026-02-28,WB006,Refresh failure,24,Operations
+T0119,2026-03-01,WB007,Definition question,68,Executive
+T0120,2026-03-02,WB008,Slow load,8,Sales Ops
+T0121,2026-03-03,WB009,Metric mismatch,19,Marketing
+T0122,2026-03-04,WB010,Definition question,18,Sales Ops
+T0123,2026-03-05,WB011,Definition question,50,Finance
+T0124,2026-03-06,WB012,Definition question,59,Finance
+T0125,2026-03-07,WB013,Metric mismatch,39,Executive
+T0126,2026-03-08,WB014,Slow load,44,Marketing
+T0127,2026-03-09,WB015,Definition question,41,Sales Ops
+T0128,2026-03-10,WB016,Metric mismatch,46,Marketing
+T0129,2026-03-11,WB017,Definition question,60,Sales Ops
+T0130,2026-03-12,WB018,Metric mismatch,7,Finance
+T0131,2026-03-13,WB019,Slow load,41,Sales Ops
+T0132,2026-03-14,WB020,Access request,41,Executive
+T0133,2026-03-15,WB021,Slow load,24,Support
+T0134,2026-03-16,WB022,Refresh failure,67,Executive
+T0135,2026-03-17,WB023,Refresh failure,17,Finance
+T0136,2026-03-18,WB024,Refresh failure,53,Support
+T0137,2026-03-19,WB025,Metric mismatch,66,Operations
+T0138,2026-03-20,WB026,Definition question,40,Support
+T0139,2026-03-21,WB027,Refresh failure,65,Operations
+T0140,2026-03-22,WB028,Definition question,21,Sales Ops
+T0141,2026-03-23,WB001,Slow load,14,Executive
+T0142,2026-03-24,WB002,Slow load,20,Marketing
+T0143,2026-03-25,WB003,Refresh failure,13,Finance
+T0144,2026-03-26,WB004,Definition question,49,Sales Ops
+T0145,2026-03-27,WB005,Access request,65,Support
+T0146,2026-03-28,WB006,Access request,31,Executive
+T0147,2026-03-29,WB007,Refresh failure,27,Support
+T0148,2026-03-30,WB008,Slow load,50,Finance
+T0149,2026-03-31,WB009,Metric mismatch,25,Executive
+T0150,2026-04-01,WB010,Definition question,63,Executive
+T0151,2026-04-02,WB011,Slow load,61,Sales Ops
+T0152,2026-04-03,WB012,Metric mismatch,7,Executive
+T0153,2026-04-04,WB013,Refresh failure,15,Support
+T0154,2026-04-05,WB014,Access request,36,Finance
+T0155,2026-04-06,WB015,Access request,13,Operations
+T0156,2026-04-07,WB016,Definition question,2,Support
+T0157,2026-04-08,WB017,Refresh failure,9,Operations
+T0158,2026-04-09,WB018,Metric mismatch,68,Sales Ops
+T0159,2026-04-10,WB019,Slow load,62,Finance
+T0160,2026-04-11,WB020,Metric mismatch,18,Executive
+T0161,2026-04-12,WB021,Access request,72,Marketing
+T0162,2026-04-13,WB022,Slow load,14,Finance
+T0163,2026-04-14,WB023,Slow load,33,Finance
+T0164,2026-04-15,WB024,Definition question,72,Operations
+T0165,2026-04-16,WB025,Definition question,52,Sales Ops
+T0166,2026-04-17,WB026,Refresh failure,26,Finance
+T0167,2026-04-18,WB027,Slow load,22,Operations
+T0168,2026-04-19,WB028,Refresh failure,6,Sales Ops
+T0169,2026-04-20,WB001,Definition question,57,Executive
+T0170,2026-04-21,WB002,Metric mismatch,66,Sales Ops
+T0171,2026-04-22,WB003,Definition question,67,Marketing
+T0172,2026-04-23,WB004,Definition question,23,Operations
+T0173,2026-04-24,WB005,Definition question,5,Executive
+T0174,2026-04-25,WB006,Slow load,31,Operations
+T0175,2026-04-26,WB007,Refresh failure,23,Operations
+T0176,2026-04-27,WB008,Refresh failure,49,Marketing
+T0177,2026-04-28,WB009,Refresh failure,56,Sales Ops
+T0178,2026-04-29,WB010,Refresh failure,61,Marketing
+T0179,2026-04-30,WB011,Metric mismatch,69,Operations
+T0180,2026-05-01,WB012,Metric mismatch,45,Operations
+T0181,2026-02-01,WB013,Access request,18,Sales Ops
+T0182,2026-02-02,WB014,Access request,63,Support
+T0183,2026-02-03,WB015,Refresh failure,4,Operations
+T0184,2026-02-04,WB016,Slow load,25,Operations
+T0185,2026-02-05,WB017,Refresh failure,6,Marketing
+T0186,2026-02-06,WB018,Definition question,26,Finance
+T0187,2026-02-07,WB019,Slow load,60,Support
+T0188,2026-02-08,WB020,Metric mismatch,12,Operations
+T0189,2026-02-09,WB021,Metric mismatch,62,Finance
+T0190,2026-02-10,WB022,Metric mismatch,48,Marketing
+T0191,2026-02-11,WB023,Access request,66,Support
+T0192,2026-02-12,WB024,Access request,14,Operations
+T0193,2026-02-13,WB025,Slow load,45,Executive
+T0194,2026-02-14,WB026,Slow load,64,Executive
+T0195,2026-02-15,WB027,Metric mismatch,33,Sales Ops
+T0196,2026-02-16,WB028,Access request,65,Marketing
+T0197,2026-02-17,WB001,Slow load,19,Executive
+T0198,2026-02-18,WB002,Definition question,3,Marketing
+T0199,2026-02-19,WB003,Refresh failure,6,Marketing
+T0200,2026-02-20,WB004,Access request,29,Operations
+T0201,2026-02-21,WB005,Definition question,10,Marketing
+T0202,2026-02-22,WB006,Metric mismatch,46,Marketing
+T0203,2026-02-23,WB007,Definition question,18,Operations
+T0204,2026-02-24,WB008,Access request,24,Support
+T0205,2026-02-25,WB009,Access request,28,Operations
+T0206,2026-02-26,WB010,Access request,38,Support
+T0207,2026-02-27,WB011,Access request,22,Operations
+T0208,2026-02-28,WB012,Definition question,68,Support
+T0209,2026-03-01,WB013,Definition question,41,Finance
+T0210,2026-03-02,WB014,Access request,33,Finance
+T0211,2026-03-03,WB015,Metric mismatch,31,Sales Ops
+T0212,2026-03-04,WB016,Definition question,47,Marketing
+T0213,2026-03-05,WB017,Refresh failure,47,Marketing
+T0214,2026-03-06,WB018,Slow load,9,Sales Ops
+T0215,2026-03-07,WB019,Access request,16,Finance
+T0216,2026-03-08,WB020,Slow load,65,Support
+T0217,2026-03-09,WB021,Metric mismatch,48,Executive
+T0218,2026-03-10,WB022,Access request,47,Marketing
+T0219,2026-03-11,WB023,Refresh failure,46,Sales Ops
+T0220,2026-03-12,WB024,Metric mismatch,48,Marketing
+T0221,2026-03-13,WB025,Slow load,34,Sales Ops
+T0222,2026-03-14,WB026,Access request,31,Operations
+T0223,2026-03-15,WB027,Access request,49,Marketing
+T0224,2026-03-16,WB028,Refresh failure,26,Operations
+T0225,2026-03-17,WB001,Definition question,14,Sales Ops
+T0226,2026-03-18,WB002,Access request,5,Marketing
+T0227,2026-03-19,WB003,Definition question,54,Operations
+T0228,2026-03-20,WB004,Access request,17,Operations
+T0229,2026-03-21,WB005,Access request,51,Sales Ops
+T0230,2026-03-22,WB006,Slow load,63,Support
+T0231,2026-03-23,WB007,Definition question,49,Marketing
+T0232,2026-03-24,WB008,Slow load,56,Sales Ops
+T0233,2026-03-25,WB009,Access request,67,Executive
+T0234,2026-03-26,WB010,Slow load,71,Marketing
+T0235,2026-03-27,WB011,Definition question,9,Sales Ops
+T0236,2026-03-28,WB012,Slow load,13,Operations
+T0237,2026-03-29,WB013,Definition question,62,Sales Ops
+T0238,2026-03-30,WB014,Definition question,5,Sales Ops
+T0239,2026-03-31,WB015,Definition question,26,Executive
+T0240,2026-04-01,WB016,Metric mismatch,11,Executive
+T0241,2026-04-02,WB017,Access request,46,Support
+T0242,2026-04-03,WB018,Access request,22,Support
+T0243,2026-04-04,WB019,Definition question,6,Executive
+T0244,2026-04-05,WB020,Metric mismatch,61,Support
+T0245,2026-04-06,WB021,Definition question,9,Support
+T0246,2026-04-07,WB022,Slow load,8,Support
+T0247,2026-04-08,WB023,Metric mismatch,34,Executive
+T0248,2026-04-09,WB024,Slow load,29,Support
+T0249,2026-04-10,WB025,Definition question,47,Sales Ops
+T0250,2026-04-11,WB026,Refresh failure,45,Operations
+T0251,2026-04-12,WB027,Slow load,54,Support
+T0252,2026-04-13,WB028,Refresh failure,19,Marketing
+T0253,2026-04-14,WB001,Refresh failure,12,Finance
+T0254,2026-04-15,WB002,Metric mismatch,5,Marketing
+T0255,2026-04-16,WB003,Slow load,8,Sales Ops
+T0256,2026-04-17,WB004,Metric mismatch,47,Operations
+T0257,2026-04-18,WB005,Definition question,35,Sales Ops
+T0258,2026-04-19,WB006,Metric mismatch,35,Sales Ops
+T0259,2026-04-20,WB007,Definition question,20,Operations
+T0260,2026-04-21,WB008,Definition question,49,Sales Ops
+T0261,2026-04-22,WB009,Access request,62,Executive
+T0262,2026-04-23,WB010,Metric mismatch,31,Sales Ops
+T0263,2026-04-24,WB011,Slow load,54,Sales Ops
+T0264,2026-04-25,WB012,Refresh failure,59,Support
+T0265,2026-04-26,WB013,Metric mismatch,1,Operations
+T0266,2026-04-27,WB014,Metric mismatch,45,Sales Ops
+T0267,2026-04-28,WB015,Metric mismatch,7,Support
+T0268,2026-04-29,WB016,Definition question,65,Executive
+T0269,2026-04-30,WB017,Refresh failure,54,Executive
+T0270,2026-05-01,WB018,Metric mismatch,49,Marketing
+T0271,2026-02-01,WB019,Access request,45,Finance
+T0272,2026-02-02,WB020,Slow load,66,Marketing
+T0273,2026-02-03,WB021,Refresh failure,51,Operations
+T0274,2026-02-04,WB022,Access request,26,Marketing
+T0275,2026-02-05,WB023,Definition question,64,Sales Ops
+T0276,2026-02-06,WB024,Definition question,5,Sales Ops
+T0277,2026-02-07,WB025,Refresh failure,17,Support
+T0278,2026-02-08,WB026,Definition question,66,Marketing
+T0279,2026-02-09,WB027,Metric mismatch,28,Marketing
+T0280,2026-02-10,WB028,Metric mismatch,65,Executive
+T0281,2026-02-11,WB001,Definition question,37,Operations
+T0282,2026-02-12,WB002,Definition question,62,Marketing
+T0283,2026-02-13,WB003,Metric mismatch,40,Sales Ops
+T0284,2026-02-14,WB004,Access request,63,Support
+T0285,2026-02-15,WB005,Refresh failure,54,Executive
+T0286,2026-02-16,WB006,Slow load,37,Operations
+T0287,2026-02-17,WB007,Definition question,3,Marketing
+T0288,2026-02-18,WB008,Metric mismatch,71,Operations
+T0289,2026-02-19,WB009,Definition question,45,Executive
+T0290,2026-02-20,WB010,Metric mismatch,56,Operations
+T0291,2026-02-21,WB011,Slow load,43,Sales Ops
+T0292,2026-02-22,WB012,Refresh failure,50,Executive
+T0293,2026-02-23,WB013,Metric mismatch,47,Support
+T0294,2026-02-24,WB014,Refresh failure,62,Support
+T0295,2026-02-25,WB015,Refresh failure,23,Operations
+T0296,2026-02-26,WB016,Refresh failure,44,Operations
+T0297,2026-02-27,WB017,Definition question,1,Sales Ops
+T0298,2026-02-28,WB018,Slow load,45,Executive
+T0299,2026-03-01,WB019,Definition question,64,Operations
+T0300,2026-03-02,WB020,Refresh failure,63,Executive
+T0301,2026-03-03,WB021,Metric mismatch,66,Executive
+T0302,2026-03-04,WB022,Refresh failure,12,Operations
+T0303,2026-03-05,WB023,Access request,17,Sales Ops
+T0304,2026-03-06,WB024,Metric mismatch,69,Sales Ops
+T0305,2026-03-07,WB025,Refresh failure,58,Executive
+T0306,2026-03-08,WB026,Slow load,32,Executive
+T0307,2026-03-09,WB027,Metric mismatch,43,Operations
+T0308,2026-03-10,WB028,Slow load,62,Support
+T0309,2026-03-11,WB001,Definition question,50,Sales Ops
+T0310,2026-03-12,WB002,Access request,25,Operations
+T0311,2026-03-13,WB003,Slow load,1,Support
+T0312,2026-03-14,WB004,Metric mismatch,4,Marketing
+T0313,2026-03-15,WB005,Definition question,40,Marketing
+T0314,2026-03-16,WB006,Refresh failure,28,Marketing
+T0315,2026-03-17,WB007,Metric mismatch,44,Executive
+T0316,2026-03-18,WB008,Slow load,55,Operations
+T0317,2026-03-19,WB009,Refresh failure,46,Sales Ops
+T0318,2026-03-20,WB010,Metric mismatch,65,Operations
+T0319,2026-03-21,WB011,Metric mismatch,25,Executive
+T0320,2026-03-22,WB012,Metric mismatch,22,Executive
+T0321,2026-03-23,WB013,Slow load,6,Finance
+T0322,2026-03-24,WB014,Definition question,36,Support
+T0323,2026-03-25,WB015,Definition question,6,Finance
+T0324,2026-03-26,WB016,Refresh failure,39,Operations
+T0325,2026-03-27,WB017,Metric mismatch,3,Marketing
+T0326,2026-03-28,WB018,Access request,72,Marketing
+T0327,2026-03-29,WB019,Definition question,64,Operations
+T0328,2026-03-30,WB020,Access request,56,Marketing
+T0329,2026-03-31,WB021,Refresh failure,29,Operations
+T0330,2026-04-01,WB022,Metric mismatch,31,Executive
+T0331,2026-04-02,WB023,Metric mismatch,31,Sales Ops
+T0332,2026-04-03,WB024,Slow load,51,Sales Ops
+T0333,2026-04-04,WB025,Slow load,58,Sales Ops
+T0334,2026-04-05,WB026,Slow load,31,Sales Ops
+T0335,2026-04-06,WB027,Access request,15,Support
+T0336,2026-04-07,WB028,Metric mismatch,68,Marketing
+T0337,2026-04-08,WB001,Access request,24,Executive
+T0338,2026-04-09,WB002,Slow load,22,Marketing
+T0339,2026-04-10,WB003,Slow load,44,Executive
+T0340,2026-04-11,WB004,Definition question,46,Operations
+T0341,2026-04-12,WB005,Refresh failure,21,Marketing
+T0342,2026-04-13,WB006,Refresh failure,53,Support
+T0343,2026-04-14,WB007,Slow load,59,Support
+T0344,2026-04-15,WB008,Metric mismatch,68,Sales Ops
+T0345,2026-04-16,WB009,Slow load,64,Sales Ops
+T0346,2026-04-17,WB010,Slow load,42,Support
+T0347,2026-04-18,WB011,Access request,50,Sales Ops
+T0348,2026-04-19,WB012,Slow load,30,Support
+T0349,2026-04-20,WB013,Metric mismatch,57,Finance
+T0350,2026-04-21,WB014,Refresh failure,34,Marketing
+T0351,2026-04-22,WB015,Definition question,56,Executive
+T0352,2026-04-23,WB016,Access request,39,Operations
+T0353,2026-04-24,WB017,Metric mismatch,43,Sales Ops
+T0354,2026-04-25,WB018,Slow load,5,Executive
+T0355,2026-04-26,WB019,Slow load,50,Executive
+T0356,2026-04-27,WB020,Access request,15,Sales Ops
+T0357,2026-04-28,WB021,Definition question,5,Executive
+T0358,2026-04-29,WB022,Definition question,24,Support
+T0359,2026-04-30,WB023,Metric mismatch,33,Support
+T0360,2026-05-01,WB024,Refresh failure,35,Finance
+T0361,2026-02-01,WB025,Metric mismatch,34,Operations
+T0362,2026-02-02,WB026,Refresh failure,63,Marketing
+T0363,2026-02-03,WB027,Slow load,60,Executive
+T0364,2026-02-04,WB028,Access request,20,Marketing
+T0365,2026-02-05,WB001,Definition question,30,Sales Ops
+T0366,2026-02-06,WB002,Metric mismatch,38,Executive
+T0367,2026-02-07,WB003,Definition question,42,Marketing
+T0368,2026-02-08,WB004,Access request,42,Sales Ops
+T0369,2026-02-09,WB005,Metric mismatch,67,Support
+T0370,2026-02-10,WB006,Slow load,41,Support
+T0371,2026-02-11,WB007,Access request,5,Operations
+T0372,2026-02-12,WB008,Metric mismatch,38,Sales Ops
+T0373,2026-02-13,WB009,Definition question,59,Support
+T0374,2026-02-14,WB010,Slow load,12,Finance
+T0375,2026-02-15,WB011,Metric mismatch,55,Operations
+T0376,2026-02-16,WB012,Metric mismatch,20,Executive
+T0377,2026-02-17,WB013,Refresh failure,37,Marketing
+T0378,2026-02-18,WB014,Definition question,18,Executive
+T0379,2026-02-19,WB015,Access request,57,Operations
+T0380,2026-02-20,WB016,Metric mismatch,41,Sales Ops
+T0381,2026-02-21,WB017,Definition question,56,Marketing
+T0382,2026-02-22,WB018,Definition question,41,Finance
+T0383,2026-02-23,WB019,Refresh failure,9,Support
+T0384,2026-02-24,WB020,Access request,48,Operations
+T0385,2026-02-25,WB021,Metric mismatch,24,Support
+T0386,2026-02-26,WB022,Refresh failure,58,Support
+T0387,2026-02-27,WB023,Access request,14,Support
+T0388,2026-02-28,WB024,Refresh failure,31,Support
+T0389,2026-03-01,WB025,Definition question,63,Operations
+T0390,2026-03-02,WB026,Access request,66,Marketing
+T0391,2026-03-03,WB027,Access request,30,Marketing
+T0392,2026-03-04,WB028,Access request,26,Operations
+T0393,2026-03-05,WB001,Access request,27,Finance
+T0394,2026-03-06,WB002,Refresh failure,15,Support
+T0395,2026-03-07,WB003,Access request,33,Finance
+T0396,2026-03-08,WB004,Access request,50,Support
+T0397,2026-03-09,WB005,Metric mismatch,24,Sales Ops
+T0398,2026-03-10,WB006,Slow load,49,Marketing
+T0399,2026-03-11,WB007,Access request,24,Marketing
+T0400,2026-03-12,WB008,Access request,44,Finance
+T0401,2026-03-13,WB009,Definition question,48,Executive
+T0402,2026-03-14,WB010,Definition question,54,Executive
+T0403,2026-03-15,WB011,Access request,53,Sales Ops
+T0404,2026-03-16,WB012,Definition question,28,Support
+T0405,2026-03-17,WB013,Slow load,18,Sales Ops
+T0406,2026-03-18,WB014,Metric mismatch,20,Executive
+T0407,2026-03-19,WB015,Metric mismatch,17,Marketing
+T0408,2026-03-20,WB016,Access request,12,Support
+T0409,2026-03-21,WB017,Refresh failure,15,Executive
+T0410,2026-03-22,WB018,Refresh failure,39,Marketing
+T0411,2026-03-23,WB019,Definition question,7,Support
+T0412,2026-03-24,WB020,Metric mismatch,20,Operations
+T0413,2026-03-25,WB021,Slow load,51,Sales Ops
+T0414,2026-03-26,WB022,Refresh failure,54,Support
+T0415,2026-03-27,WB023,Definition question,3,Sales Ops
+T0416,2026-03-28,WB024,Metric mismatch,48,Operations
+T0417,2026-03-29,WB025,Metric mismatch,49,Executive
+T0418,2026-03-30,WB026,Definition question,67,Marketing
+T0419,2026-03-31,WB027,Slow load,69,Sales Ops
+T0420,2026-04-01,WB028,Metric mismatch,54,Marketing
+T0421,2026-04-02,WB001,Slow load,49,Support
+T0422,2026-04-03,WB002,Access request,39,Executive
+T0423,2026-04-04,WB003,Refresh failure,45,Finance
+T0424,2026-04-05,WB004,Metric mismatch,43,Support
+T0425,2026-04-06,WB005,Refresh failure,3,Operations
+T0426,2026-04-07,WB006,Definition question,2,Finance
+T0427,2026-04-08,WB007,Slow load,59,Operations
+T0428,2026-04-09,WB008,Access request,29,Marketing
+T0429,2026-04-10,WB009,Refresh failure,53,Finance
+T0430,2026-04-11,WB010,Metric mismatch,16,Executive
+T0431,2026-04-12,WB011,Definition question,26,Executive
+T0432,2026-04-13,WB012,Slow load,53,Marketing
+T0433,2026-04-14,WB013,Definition question,62,Finance
+T0434,2026-04-15,WB014,Definition question,18,Sales Ops
+T0435,2026-04-16,WB015,Refresh failure,13,Finance
+T0436,2026-04-17,WB016,Metric mismatch,66,Operations
+T0437,2026-04-18,WB017,Refresh failure,40,Marketing
+T0438,2026-04-19,WB018,Access request,29,Sales Ops
+T0439,2026-04-20,WB019,Slow load,5,Support
+T0440,2026-04-21,WB020,Refresh failure,22,Operations
+T0441,2026-04-22,WB021,Metric mismatch,42,Executive
+T0442,2026-04-23,WB022,Slow load,4,Marketing
+T0443,2026-04-24,WB023,Refresh failure,70,Marketing
+T0444,2026-04-25,WB024,Slow load,58,Executive
+T0445,2026-04-26,WB025,Access request,23,Operations
+T0446,2026-04-27,WB026,Metric mismatch,48,Marketing
+T0447,2026-04-28,WB027,Definition question,13,Marketing
+T0448,2026-04-29,WB028,Slow load,38,Operations
+T0449,2026-04-30,WB001,Slow load,31,Executive
+T0450,2026-05-01,WB002,Refresh failure,40,Operations
+T0451,2026-02-01,WB003,Slow load,12,Marketing
+T0452,2026-02-02,WB004,Refresh failure,35,Finance
+T0453,2026-02-03,WB005,Definition question,57,Sales Ops
+T0454,2026-02-04,WB006,Metric mismatch,41,Finance
+T0455,2026-02-05,WB007,Access request,31,Sales Ops
+T0456,2026-02-06,WB008,Refresh failure,62,Support
+T0457,2026-02-07,WB009,Metric mismatch,19,Marketing
+T0458,2026-02-08,WB010,Refresh failure,26,Marketing
+T0459,2026-02-09,WB011,Access request,47,Executive
+T0460,2026-02-10,WB012,Metric mismatch,4,Finance
+T0461,2026-02-11,WB013,Slow load,27,Executive
+T0462,2026-02-12,WB014,Definition question,44,Sales Ops
+T0463,2026-02-13,WB015,Refresh failure,40,Sales Ops
+T0464,2026-02-14,WB016,Metric mismatch,53,Support
+T0465,2026-02-15,WB017,Slow load,16,Operations
+T0466,2026-02-16,WB018,Definition question,27,Finance
+T0467,2026-02-17,WB019,Slow load,44,Marketing
+T0468,2026-02-18,WB020,Slow load,38,Finance
+T0469,2026-02-19,WB021,Definition question,59,Executive
+T0470,2026-02-20,WB022,Access request,35,Sales Ops
+T0471,2026-02-21,WB023,Access request,40,Operations
+T0472,2026-02-22,WB024,Refresh failure,65,Executive
+T0473,2026-02-23,WB025,Metric mismatch,7,Sales Ops
+T0474,2026-02-24,WB026,Refresh failure,51,Marketing
+T0475,2026-02-25,WB027,Slow load,3,Support
+T0476,2026-02-26,WB028,Access request,52,Operations
+T0477,2026-02-27,WB001,Slow load,61,Operations
+T0478,2026-02-28,WB002,Access request,9,Operations
+T0479,2026-03-01,WB003,Access request,11,Support
+T0480,2026-03-02,WB004,Metric mismatch,20,Operations
+T0481,2026-03-03,WB005,Slow load,47,Marketing
+T0482,2026-03-04,WB006,Metric mismatch,46,Finance
+T0483,2026-03-05,WB007,Slow load,44,Sales Ops
+T0484,2026-03-06,WB008,Slow load,49,Marketing
+T0485,2026-03-07,WB009,Definition question,39,Support
+T0486,2026-03-08,WB010,Definition question,2,Support
+T0487,2026-03-09,WB011,Definition question,42,Support
+T0488,2026-03-10,WB012,Access request,27,Sales Ops
+T0489,2026-03-11,WB013,Definition question,47,Sales Ops
+T0490,2026-03-12,WB014,Access request,43,Operations
+T0491,2026-03-13,WB015,Metric mismatch,65,Operations
+T0492,2026-03-14,WB016,Access request,43,Finance
+T0493,2026-03-15,WB017,Refresh failure,41,Finance
+T0494,2026-03-16,WB018,Metric mismatch,37,Finance
+T0495,2026-03-17,WB019,Refresh failure,52,Finance
+T0496,2026-03-18,WB020,Metric mismatch,28,Operations
+T0497,2026-03-19,WB021,Slow load,51,Executive
+T0498,2026-03-20,WB022,Slow load,22,Operations
+T0499,2026-03-21,WB023,Access request,70,Finance
+T0500,2026-03-22,WB024,Slow load,29,Support
+T0501,2026-03-23,WB025,Access request,16,Support
+T0502,2026-03-24,WB026,Definition question,10,Sales Ops
+T0503,2026-03-25,WB027,Refresh failure,33,Marketing
+T0504,2026-03-26,WB028,Access request,48,Finance
+T0505,2026-03-27,WB001,Access request,2,Finance
+T0506,2026-03-28,WB002,Refresh failure,64,Executive
+T0507,2026-03-29,WB003,Definition question,5,Executive
+T0508,2026-03-30,WB004,Metric mismatch,61,Sales Ops
+T0509,2026-03-31,WB005,Slow load,15,Executive
+T0510,2026-04-01,WB006,Definition question,5,Finance
+T0511,2026-04-02,WB007,Refresh failure,36,Sales Ops
+T0512,2026-04-03,WB008,Access request,65,Finance
+T0513,2026-04-04,WB009,Access request,57,Sales Ops
+T0514,2026-04-05,WB010,Metric mismatch,7,Support
+T0515,2026-04-06,WB011,Definition question,59,Sales Ops
+T0516,2026-04-07,WB012,Definition question,11,Operations
+T0517,2026-04-08,WB013,Refresh failure,29,Support
+T0518,2026-04-09,WB014,Access request,41,Support
+T0519,2026-04-10,WB015,Access request,24,Operations
+T0520,2026-04-11,WB016,Refresh failure,60,Support
+T0521,2026-04-12,WB017,Metric mismatch,48,Executive
+T0522,2026-04-13,WB018,Slow load,40,Executive
+T0523,2026-04-14,WB019,Access request,53,Executive
+T0524,2026-04-15,WB020,Access request,17,Finance
+T0525,2026-04-16,WB021,Access request,17,Marketing
+T0526,2026-04-17,WB022,Metric mismatch,48,Marketing
+T0527,2026-04-18,WB023,Access request,47,Sales Ops
+T0528,2026-04-19,WB024,Definition question,32,Operations
+T0529,2026-04-20,WB025,Slow load,51,Support
+T0530,2026-04-21,WB026,Refresh failure,10,Sales Ops
+T0531,2026-04-22,WB027,Refresh failure,64,Support
+T0532,2026-04-23,WB028,Access request,38,Support
+T0533,2026-04-24,WB001,Metric mismatch,68,Marketing
+T0534,2026-04-25,WB002,Slow load,42,Support
+T0535,2026-04-26,WB003,Definition question,71,Support
+T0536,2026-04-27,WB004,Access request,58,Support
+T0537,2026-04-28,WB005,Access request,33,Finance
+T0538,2026-04-29,WB006,Definition question,23,Finance
+T0539,2026-04-30,WB007,Refresh failure,4,Finance
+T0540,2026-05-01,WB008,Slow load,20,Support
+T0541,2026-02-01,WB009,Access request,59,Marketing
+T0542,2026-02-02,WB010,Refresh failure,40,Marketing
+T0543,2026-02-03,WB011,Slow load,52,Operations
+T0544,2026-02-04,WB012,Access request,36,Finance
+T0545,2026-02-05,WB013,Refresh failure,43,Sales Ops
+T0546,2026-02-06,WB014,Metric mismatch,49,Sales Ops
+T0547,2026-02-07,WB015,Definition question,4,Executive
+T0548,2026-02-08,WB016,Refresh failure,36,Marketing
+T0549,2026-02-09,WB017,Metric mismatch,64,Executive
+T0550,2026-02-10,WB018,Access request,39,Executive
+T0551,2026-02-11,WB019,Metric mismatch,25,Operations
+T0552,2026-02-12,WB020,Metric mismatch,36,Marketing
+T0553,2026-02-13,WB021,Access request,39,Operations
+T0554,2026-02-14,WB022,Metric mismatch,28,Marketing
+T0555,2026-02-15,WB023,Refresh failure,34,Operations
+T0556,2026-02-16,WB024,Definition question,32,Marketing
+T0557,2026-02-17,WB025,Definition question,59,Operations
+T0558,2026-02-18,WB026,Definition question,70,Operations
+T0559,2026-02-19,WB027,Access request,6,Sales Ops
+T0560,2026-02-20,WB028,Access request,52,Sales Ops
+T0561,2026-02-21,WB001,Definition question,61,Executive
+T0562,2026-02-22,WB002,Definition question,58,Finance
+T0563,2026-02-23,WB003,Refresh failure,50,Sales Ops
+T0564,2026-02-24,WB004,Access request,43,Executive
+T0565,2026-02-25,WB005,Access request,26,Executive
+T0566,2026-02-26,WB006,Access request,50,Operations
+T0567,2026-02-27,WB007,Slow load,58,Marketing
+T0568,2026-02-28,WB008,Metric mismatch,6,Marketing
+T0569,2026-03-01,WB009,Access request,25,Operations
+T0570,2026-03-02,WB010,Metric mismatch,9,Operations
+T0571,2026-03-03,WB011,Refresh failure,15,Operations
+T0572,2026-03-04,WB012,Slow load,25,Marketing
+T0573,2026-03-05,WB013,Refresh failure,50,Operations
+T0574,2026-03-06,WB014,Refresh failure,61,Support
+T0575,2026-03-07,WB015,Metric mismatch,22,Executive
+T0576,2026-03-08,WB016,Slow load,6,Finance
+T0577,2026-03-09,WB017,Definition question,9,Support
+T0578,2026-03-10,WB018,Access request,5,Support
+T0579,2026-03-11,WB019,Slow load,16,Executive
+T0580,2026-03-12,WB020,Definition question,6,Marketing
+T0581,2026-03-13,WB021,Definition question,43,Support
+T0582,2026-03-14,WB022,Access request,61,Operations
+T0583,2026-03-15,WB023,Access request,55,Operations
+T0584,2026-03-16,WB024,Slow load,8,Marketing
+T0585,2026-03-17,WB025,Metric mismatch,30,Support
+T0586,2026-03-18,WB026,Refresh failure,50,Executive
+T0587,2026-03-19,WB027,Metric mismatch,48,Finance
+T0588,2026-03-20,WB028,Access request,67,Executive
+T0589,2026-03-21,WB001,Access request,31,Executive
+T0590,2026-03-22,WB002,Access request,36,Finance
+T0591,2026-03-23,WB003,Refresh failure,50,Executive
+T0592,2026-03-24,WB004,Definition question,3,Operations
+T0593,2026-03-25,WB005,Slow load,11,Marketing
+T0594,2026-03-26,WB006,Slow load,15,Support
+T0595,2026-03-27,WB007,Definition question,31,Support
+T0596,2026-03-28,WB008,Definition question,9,Support
+T0597,2026-03-29,WB009,Slow load,60,Finance
+T0598,2026-03-30,WB010,Refresh failure,2,Executive
+T0599,2026-03-31,WB011,Slow load,2,Sales Ops
+T0600,2026-04-01,WB012,Slow load,52,Operations
+T0601,2026-04-02,WB013,Refresh failure,32,Executive
+T0602,2026-04-03,WB014,Metric mismatch,59,Operations
+T0603,2026-04-04,WB015,Slow load,66,Marketing
+T0604,2026-04-05,WB016,Metric mismatch,49,Finance
+T0605,2026-04-06,WB017,Metric mismatch,33,Finance
+T0606,2026-04-07,WB018,Access request,22,Executive
+T0607,2026-04-08,WB019,Metric mismatch,46,Operations
+T0608,2026-04-09,WB020,Access request,54,Finance
+T0609,2026-04-10,WB021,Slow load,56,Operations
+T0610,2026-04-11,WB022,Access request,58,Finance
+T0611,2026-04-12,WB023,Definition question,70,Marketing
+T0612,2026-04-13,WB024,Definition question,1,Operations
+T0613,2026-04-14,WB025,Access request,17,Marketing
+T0614,2026-04-15,WB026,Definition question,8,Support
+T0615,2026-04-16,WB027,Definition question,14,Executive
+T0616,2026-04-17,WB028,Definition question,65,Marketing
+T0617,2026-04-18,WB001,Access request,13,Finance
+T0618,2026-04-19,WB002,Refresh failure,31,Marketing
+T0619,2026-04-20,WB003,Slow load,6,Executive
+T0620,2026-04-21,WB004,Refresh failure,54,Executive
+T0621,2026-04-22,WB005,Refresh failure,47,Finance
+T0622,2026-04-23,WB006,Refresh failure,29,Executive
+T0623,2026-04-24,WB007,Metric mismatch,9,Operations
+T0624,2026-04-25,WB008,Metric mismatch,17,Sales Ops
+T0625,2026-04-26,WB009,Definition question,65,Executive
+T0626,2026-04-27,WB010,Slow load,4,Finance
+T0627,2026-04-28,WB011,Definition question,59,Executive
+T0628,2026-04-29,WB012,Refresh failure,25,Executive
+T0629,2026-04-30,WB013,Access request,60,Operations
+T0630,2026-05-01,WB014,Refresh failure,49,Executive
+T0631,2026-02-01,WB015,Metric mismatch,13,Operations
+T0632,2026-02-02,WB016,Refresh failure,39,Executive
+T0633,2026-02-03,WB017,Refresh failure,24,Marketing
+T0634,2026-02-04,WB018,Definition question,24,Marketing
+T0635,2026-02-05,WB019,Slow load,57,Finance
+T0636,2026-02-06,WB020,Metric mismatch,13,Operations
+T0637,2026-02-07,WB021,Refresh failure,19,Executive
+T0638,2026-02-08,WB022,Metric mismatch,30,Sales Ops
+T0639,2026-02-09,WB023,Metric mismatch,7,Marketing
+T0640,2026-02-10,WB024,Slow load,42,Marketing
+T0641,2026-02-11,WB025,Access request,24,Sales Ops
+T0642,2026-02-12,WB026,Metric mismatch,25,Finance
+T0643,2026-02-13,WB027,Slow load,48,Finance
+T0644,2026-02-14,WB028,Slow load,14,Finance
+T0645,2026-02-15,WB001,Refresh failure,37,Marketing
+T0646,2026-02-16,WB002,Access request,39,Sales Ops
+T0647,2026-02-17,WB003,Definition question,45,Support
+T0648,2026-02-18,WB004,Metric mismatch,50,Support
+T0649,2026-02-19,WB005,Slow load,42,Executive
+T0650,2026-02-20,WB006,Slow load,68,Finance
+T0651,2026-02-21,WB007,Refresh failure,48,Operations
+T0652,2026-02-22,WB008,Slow load,9,Operations
+T0653,2026-02-23,WB009,Access request,54,Finance
+T0654,2026-02-24,WB010,Definition question,3,Marketing
+T0655,2026-02-25,WB011,Definition question,69,Marketing
+T0656,2026-02-26,WB012,Refresh failure,10,Finance
+T0657,2026-02-27,WB013,Definition question,55,Support
+T0658,2026-02-28,WB014,Refresh failure,2,Finance
+T0659,2026-03-01,WB015,Access request,25,Operations
+T0660,2026-03-02,WB016,Metric mismatch,21,Executive
+T0661,2026-03-03,WB017,Metric mismatch,65,Operations
+T0662,2026-03-04,WB018,Definition question,36,Finance
+T0663,2026-03-05,WB019,Refresh failure,23,Executive
+T0664,2026-03-06,WB020,Definition question,57,Finance
+T0665,2026-03-07,WB021,Slow load,32,Operations
+T0666,2026-03-08,WB022,Slow load,68,Executive
+T0667,2026-03-09,WB023,Access request,48,Support
+T0668,2026-03-10,WB024,Refresh failure,70,Sales Ops
+T0669,2026-03-11,WB025,Definition question,62,Support
+T0670,2026-03-12,WB026,Slow load,60,Support
+T0671,2026-03-13,WB027,Refresh failure,71,Marketing
+T0672,2026-03-14,WB028,Metric mismatch,49,Marketing
+T0673,2026-03-15,WB001,Slow load,57,Finance
+T0674,2026-03-16,WB002,Refresh failure,2,Finance
+T0675,2026-03-17,WB003,Refresh failure,24,Finance
+T0676,2026-03-18,WB004,Metric mismatch,19,Support
+T0677,2026-03-19,WB005,Refresh failure,23,Operations
+T0678,2026-03-20,WB006,Refresh failure,1,Marketing
+T0679,2026-03-21,WB007,Definition question,43,Finance
+T0680,2026-03-22,WB008,Access request,56,Finance
+T0681,2026-03-23,WB009,Refresh failure,17,Sales Ops
+T0682,2026-03-24,WB010,Slow load,71,Support
+T0683,2026-03-25,WB011,Metric mismatch,42,Support
+T0684,2026-03-26,WB012,Definition question,43,Operations
+T0685,2026-03-27,WB013,Slow load,35,Support
+T0686,2026-03-28,WB014,Definition question,61,Executive
+T0687,2026-03-29,WB015,Slow load,54,Support
+T0688,2026-03-30,WB016,Slow load,44,Sales Ops
+T0689,2026-03-31,WB017,Refresh failure,52,Operations
+T0690,2026-04-01,WB018,Metric mismatch,45,Finance
+T0691,2026-04-02,WB019,Access request,10,Marketing
+T0692,2026-04-03,WB020,Slow load,54,Executive
+T0693,2026-04-04,WB021,Refresh failure,49,Support
+T0694,2026-04-05,WB022,Slow load,64,Marketing
+T0695,2026-04-06,WB023,Refresh failure,64,Support
+T0696,2026-04-07,WB024,Access request,22,Operations
+T0697,2026-04-08,WB025,Refresh failure,1,Executive
+T0698,2026-04-09,WB026,Slow load,27,Sales Ops
+T0699,2026-04-10,WB027,Definition question,37,Operations
+T0700,2026-04-11,WB028,Metric mismatch,35,Support
+T0701,2026-04-12,WB001,Slow load,43,Executive
+T0702,2026-04-13,WB002,Refresh failure,25,Sales Ops
+T0703,2026-04-14,WB003,Metric mismatch,42,Marketing
+T0704,2026-04-15,WB004,Refresh failure,13,Support
+T0705,2026-04-16,WB005,Metric mismatch,42,Finance
+T0706,2026-04-17,WB006,Definition question,5,Operations
+T0707,2026-04-18,WB007,Access request,52,Finance
+T0708,2026-04-19,WB008,Refresh failure,47,Support
+T0709,2026-04-20,WB009,Definition question,38,Sales Ops
+T0710,2026-04-21,WB010,Slow load,2,Executive
+T0711,2026-04-22,WB011,Slow load,4,Marketing
+T0712,2026-04-23,WB012,Slow load,68,Operations
+T0713,2026-04-24,WB013,Refresh failure,38,Sales Ops
+T0714,2026-04-25,WB014,Refresh failure,51,Support
+T0715,2026-04-26,WB015,Metric mismatch,15,Support
+T0716,2026-04-27,WB016,Slow load,69,Operations
+T0717,2026-04-28,WB017,Slow load,18,Executive
+T0718,2026-04-29,WB018,Definition question,33,Marketing
+T0719,2026-04-30,WB019,Definition question,72,Support
+T0720,2026-05-01,WB020,Definition question,40,Sales Ops

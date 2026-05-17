@@ -21,6 +21,12 @@ This is a BI governance audit lab. It profiles synthetic workbook metadata acros
 - Certify KPI definitions with finance and sales operations before wider publishing.
 - Retire or schedule ad hoc workbooks that repeatedly create analyst support work.
 
+## Data sources
+
+- Five source-style CSVs now back the Tableau audit lab.
+- The data includes workbook inventory, extract runs, performance samples, support tickets, and KPI definitions.
+- The scoring script combines load time and stakeholder ticket volume to rank governance risk.
+
 ## Repository structure
 
 - `index.html` - interactive workbook audit lab

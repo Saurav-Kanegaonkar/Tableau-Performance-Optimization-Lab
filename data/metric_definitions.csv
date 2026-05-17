@@ -1,0 +1,65 @@
+metric_id,metric_name,source_system,owner_department,certified_flag,definition_age_days
+KPI001,Spend,Snowflake,Sales Ops,N,217
+KPI002,Gross Margin,Finance Mart,Sales Ops,Y,75
+KPI003,Gross Margin,Excel Upload,Operations,N,271
+KPI004,Retention,Finance Mart,Operations,N,612
+KPI005,Pipeline,Salesforce,Operations,N,602
+KPI006,Bookings,Finance Mart,Support,N,318
+KPI007,Pipeline,Excel Upload,Operations,N,288
+KPI008,Conversion,Salesforce,Operations,Y,178
+KPI009,Spend,Snowflake,Finance,Y,290
+KPI010,Conversion,Snowflake,Operations,N,309
+KPI011,Retention,Finance Mart,Marketing,N,344
+KPI012,Gross Margin,Finance Mart,Operations,N,453
+KPI013,Retention,Snowflake,Sales Ops,N,544
+KPI014,Bookings,Finance Mart,Operations,Y,353
+KPI015,Forecast,Excel Upload,Operations,N,38
+KPI016,Forecast,Excel Upload,Support,Y,68
+KPI017,Forecast,Excel Upload,Finance,Y,33
+KPI018,Spend,Salesforce,Finance,N,269
+KPI019,Forecast,Snowflake,Sales Ops,N,618
+KPI020,Bookings,Finance Mart,Operations,N,63
+KPI021,Gross Margin,Salesforce,Marketing,N,78
+KPI022,Revenue,Snowflake,Support,Y,174
+KPI023,Revenue,Salesforce,Operations,N,376
+KPI024,Forecast,Finance Mart,Operations,N,564
+KPI025,Forecast,Excel Upload,Executive,Y,251
+KPI026,Conversion,Snowflake,Finance,Y,104
+KPI027,Pipeline,Salesforce,Executive,N,449
+KPI028,Conversion,Excel Upload,Marketing,N,566
+KPI029,Bookings,Salesforce,Support,Y,86
+KPI030,Gross Margin,Excel Upload,Operations,N,396
+KPI031,Pipeline,Snowflake,Executive,Y,638
+KPI032,Forecast,Salesforce,Finance,Y,637
+KPI033,Spend,Snowflake,Executive,Y,592
+KPI034,Revenue,Salesforce,Sales Ops,N,586
+KPI035,Bookings,Excel Upload,Marketing,Y,191
+KPI036,Spend,Excel Upload,Marketing,N,676
+KPI037,Conversion,Snowflake,Support,N,146
+KPI038,Revenue,Finance Mart,Marketing,N,508
+KPI039,Conversion,Finance Mart,Marketing,N,12
+KPI040,Gross Margin,Finance Mart,Sales Ops,N,81
+KPI041,Forecast,Finance Mart,Marketing,Y,346
+KPI042,Pipeline,Finance Mart,Marketing,N,298
+KPI043,Pipeline,Finance Mart,Sales Ops,Y,84
+KPI044,Gross Margin,Excel Upload,Operations,Y,709
+KPI045,Revenue,Finance Mart,Operations,Y,257
+KPI046,Bookings,Salesforce,Operations,N,475
+KPI047,Pipeline,Salesforce,Operations,N,398
+KPI048,Pipeline,Snowflake,Marketing,Y,238
+KPI049,Spend,Excel Upload,Sales Ops,N,13
+KPI050,Conversion,Finance Mart,Finance,Y,579
+KPI051,Conversion,Finance Mart,Operations,N,260
+KPI052,Conversion,Snowflake,Marketing,Y,371
+KPI053,Gross Margin,Finance Mart,Support,Y,455
+KPI054,Retention,Snowflake,Operations,Y,65
+KPI055,Retention,Finance Mart,Executive,N,329
+KPI056,Pipeline,Salesforce,Sales Ops,Y,628
+KPI057,Revenue,Finance Mart,Marketing,N,42
+KPI058,Pipeline,Snowflake,Marketing,Y,291
+KPI059,Bookings,Salesforce,Finance,N,437
+KPI060,Conversion,Finance Mart,Support,Y,345
+KPI061,Forecast,Snowflake,Sales Ops,N,469
+KPI062,Conversion,Snowflake,Support,N,173
+KPI063,Spend,Excel Upload,Operations,N,79
+KPI064,Bookings,Excel Upload,Executive,Y,119

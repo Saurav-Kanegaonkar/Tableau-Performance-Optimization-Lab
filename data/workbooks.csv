@@ -1,0 +1,29 @@
+workbook_id,workbook_name,owner_department,certified_flag,business_criticality
+WB001,Ops Scorecard,Sales Ops,N,High
+WB002,Ops Scorecard,Marketing,N,High
+WB003,Finance Pipeline Monitor,Marketing,N,High
+WB004,Finance KPI View,Sales Ops,N,Low
+WB005,Marketing Scorecard,Executive,N,High
+WB006,Sales Pipeline Monitor,Marketing,Y,Low
+WB007,Marketing KPI View,Sales Ops,N,Medium
+WB008,Executive Scorecard,Sales Ops,Y,High
+WB009,Marketing Scorecard,Executive,Y,Low
+WB010,Ops Pipeline Monitor,Sales Ops,Y,Medium
+WB011,Ops KPI View,Sales Ops,N,Low
+WB012,Finance Scorecard,Executive,N,Medium
+WB013,Ops KPI View,Operations,N,High
+WB014,Finance Scorecard,Finance,Y,Medium
+WB015,Ops KPI View,Marketing,Y,High
+WB016,Sales Scorecard,Marketing,N,Low
+WB017,Marketing KPI View,Sales Ops,N,Low
+WB018,Finance Workbook,Support,Y,High
+WB019,Support Workbook,Executive,N,High
+WB020,Support KPI View,Sales Ops,N,Low
+WB021,Finance Workbook,Executive,Y,High
+WB022,Finance Pipeline Monitor,Finance,N,Medium
+WB023,Executive Reconciliation,Executive,Y,High
+WB024,Marketing Workbook,Executive,Y,Medium
+WB025,Support Scorecard,Marketing,Y,Medium
+WB026,Support Workbook,Finance,N,Low
+WB027,Sales Reconciliation,Marketing,N,Medium
+WB028,Marketing Pipeline Monitor,Marketing,Y,Low
