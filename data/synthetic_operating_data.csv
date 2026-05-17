@@ -1,5 +1,4 @@
-signal,segment,status,finding,risk
-"Sales scorecard","Executive","Slow","Complex SQL","High"
-"Finance KPI","Finance","Fresh","Definition cleanup","High"
-"Ops dashboard","Operations","Fresh","No issue","Low"
-"Ad hoc workbook","Sales","Stale","Owner gap","Medium"
+workbook,owner,load_score,freshness_score,definition_score,risk
+Sales Executive Scorecard,Sales Ops,38,82,61,High
+Finance KPI Reconciliation,Finance,71,93,68,Medium
+Ad Hoc Sales Workbook,Field Sales,55,49,42,High

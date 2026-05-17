@@ -1,7 +1,10 @@
 # Data Dictionary
 
-- signal: named operating or customer metric
-- segment: business segment or owner group
-- status: current data or operating condition
-- finding: analytical interpretation of the signal
-- risk: prioritization level for action
+| Field | Meaning |
+|---|---|
+| workbook | Tableau workbook or dashboard asset |
+| owner | Business or BI owner |
+| load_score | Relative speed and filter performance |
+| freshness_score | Extract freshness and schedule reliability |
+| definition_score | KPI definition readiness |
+| risk | Publishing risk level |

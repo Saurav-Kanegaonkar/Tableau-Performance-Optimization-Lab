@@ -7,42 +7,39 @@
   <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-  <main class="app">
-    <header class="hero">
+  <main class="audit-shell">
+    <header class="audit-header">
       <div>
-        <p class="eyebrow">Tableau BI</p>
+        <p class="label">BI Governance Audit</p>
         <h1>Tableau Performance Optimization Lab</h1>
-        <p>BI teams need to know which Tableau dashboards are slow, inaccurate, over-filtered, or missing stakeholder-ready KPI definitions.</p>
       </div>
-      <div class="hero-card">
-        <span>Decision risk</span>
-        <strong>5</strong>
-        <small>optimize</small>
-      </div>
+      <p>Profile workbook speed, extract freshness, KPI definition risk, and ad hoc workload before publishing executive views.</p>
     </header>
-    <section>
-      <span class="output-tag">Output 1 · Executive pulse</span>
-      <div class="metric-grid" id="metrics"></div>
-    </section>
-    <section class="grid">
-      <article class="panel wide">
-        <p class="eyebrow">Diagnostic table</p>
-        <span class="output-tag">Output 2 · Operating queue</span>
-        <h2>Where the team should focus next</h2>
-        <div id="table"></div>
+    <section class="scoreboard" id="scoreboard"></section>
+    <section class="audit-grid">
+      <article class="workbook-list">
+        <p class="label">Workbook profiler</p>
+        <div id="workbooks"></div>
       </article>
-      <article class="panel">
-        <p class="eyebrow">What the data says</p>
-        <span class="output-tag">Output 3 · Analytical readout</span>
-        <h2>Signals behind the recommendation</h2>
-        <div id="signals"></div>
+      <article class="workbook-detail">
+        <p class="label">Selected workbook</p>
+        <h2 id="workbook-title"></h2>
+        <div id="health-bars"></div>
+        <div class="terminal">
+          <span>audit output</span>
+          <pre id="audit-output"></pre>
+        </div>
       </article>
     </section>
-    <section class="panel">
-      <p class="eyebrow">Recommendation memo</p>
-      <span class="output-tag">Output 4 · Next actions</span>
-      <h2>Recommended moves</h2>
-      <div id="recs" class="memo-grid"></div>
+    <section class="qa-lane">
+      <article>
+        <p class="label">What the data says</p>
+        <div id="insights"></div>
+      </article>
+      <article>
+        <p class="label">Publishing recommendation</p>
+        <div id="recommendations"></div>
+      </article>
     </section>
   </main>
   <script src="src/data.js"></script>
