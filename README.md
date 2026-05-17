@@ -32,6 +32,7 @@ This is a BI governance audit lab. It profiles synthetic workbook metadata acros
 - `index.html` - interactive workbook audit lab
 - `src/` - workbook metadata, logic, and styling
 - `data/` - synthetic workbook audit data
+- `analysis/` - methodology, executive findings, SQL checks, and ranked analytical outputs
 - `analysis/methodology.md` - scoring and governance assumptions
 - `scripts/score_operating_data.py` - workbook risk scoring script
 - `docs/images/dashboard.png` - rendered screenshot
