@@ -1,29 +1,29 @@
-workbook_id,workbook_name,owner_department,business_criticality,avg_load_seconds,support_tickets,refresh_failures,governance_risk
-WB016,Sales Scorecard,Marketing,Low,33.7,26,14,89.0
-WB027,Sales Reconciliation,Marketing,Medium,31.2,25,12,81.66
-WB005,Marketing Scorecard,Executive,High,33.2,26,9,80.78
-WB015,Ops KPI View,Marketing,High,33.1,26,9,80.69
-WB009,Marketing Scorecard,Executive,Low,30.3,26,11,79.73
-WB023,Executive Reconciliation,Executive,High,30.7,25,11,79.44
-WB021,Finance Workbook,Executive,High,34.8,25,7,79.22
-WB007,Marketing KPI View,Sales Ops,Medium,33.6,26,7,78.36
-WB010,Ops Pipeline Monitor,Sales Ops,Medium,30.4,26,9,76.81
-WB008,Executive Scorecard,Sales Ops,High,32.7,26,6,75.6
-WB017,Marketing KPI View,Sales Ops,Low,30.5,26,8,75.45
-WB028,Marketing Pipeline Monitor,Marketing,Low,30.9,25,8,75.2
-WB024,Marketing Workbook,Executive,Medium,30.7,25,8,75.02
-WB002,Ops Scorecard,Marketing,High,31.0,26,7,74.72
-WB006,Sales Pipeline Monitor,Marketing,Low,32.8,26,5,74.19
-WB003,Finance Pipeline Monitor,Marketing,High,28.4,26,9,74.1
-WB020,Support KPI View,Sales Ops,Low,29.3,26,8,73.86
-WB026,Support Workbook,Finance,Low,31.7,25,6,73.4
-WB019,Support Workbook,Executive,High,32.1,26,5,73.23
-WB004,Finance KPI View,Sales Ops,Low,32.4,26,4,72.23
-WB014,Finance Scorecard,Finance,Medium,30.0,26,6,71.81
-WB018,Finance Workbook,Support,High,29.5,26,6,71.16
-WB001,Ops Scorecard,Sales Ops,High,29.5,26,6,71.09
-WB011,Ops KPI View,Sales Ops,Low,30.5,26,5,70.98
-WB022,Finance Pipeline Monitor,Finance,Medium,28.5,25,6,68.89
-WB025,Support Scorecard,Marketing,Medium,26.2,25,8,68.72
-WB013,Ops KPI View,Operations,High,31.4,26,2,67.73
-WB012,Finance Scorecard,Executive,Medium,31.0,26,2,67.17
+workbook_id,workbook_name,owner_department,business_criticality,avg_load_seconds,p95_load_seconds,support_tickets,extract_failure_rate,uncertified_metric_rate,governance_risk_score
+WB008,Executive Scorecard,Sales Ops,High,32.7,59.1,26,0.067,0.7,131.6
+WB015,Ops KPI View,Marketing,High,33.1,57.1,26,0.1,0.615,130.7
+WB013,Ops KPI View,Operations,High,31.4,58.1,26,0.022,0.75,129.3
+WB001,Ops Scorecard,Sales Ops,High,29.5,57.6,26,0.067,0.7,127.4
+WB002,Ops Scorecard,Marketing,High,31.0,56.6,26,0.078,0.615,127.3
+WB016,Sales Scorecard,Marketing,Low,33.7,57.6,26,0.156,0.615,125.5
+WB005,Marketing Scorecard,Executive,High,33.2,59.0,26,0.1,0.333,125.3
+WB003,Finance Pipeline Monitor,Marketing,High,28.4,55.3,26,0.1,0.615,124.7
+WB007,Marketing KPI View,Sales Ops,Medium,33.6,58.1,26,0.078,0.7,124.7
+WB021,Finance Workbook,Executive,High,34.8,56.8,25,0.078,0.333,124.0
+WB004,Finance KPI View,Sales Ops,Low,32.4,58.2,26,0.044,0.7,122.2
+WB019,Support Workbook,Executive,High,32.1,55.8,26,0.056,0.333,121.3
+WB017,Marketing KPI View,Sales Ops,Low,30.5,56.9,26,0.089,0.7,121.1
+WB006,Sales Pipeline Monitor,Marketing,Low,32.8,56.9,26,0.056,0.615,120.7
+WB010,Ops Pipeline Monitor,Sales Ops,Medium,30.4,54.7,26,0.1,0.7,120.6
+WB018,Finance Workbook,Support,High,29.5,57.8,26,0.067,0.375,120.4
+WB027,Sales Reconciliation,Marketing,Medium,31.2,57.2,25,0.133,0.615,120.1
+WB023,Executive Reconciliation,Executive,High,30.7,54.5,25,0.122,0.333,120.0
+WB020,Support KPI View,Sales Ops,Low,29.3,56.1,26,0.089,0.7,119.5
+WB011,Ops KPI View,Sales Ops,Low,30.5,54.7,26,0.056,0.7,119.1
+WB028,Marketing Pipeline Monitor,Marketing,Low,30.9,57.9,25,0.089,0.615,118.4
+WB009,Marketing Scorecard,Executive,Low,30.3,56.8,26,0.122,0.333,113.9
+WB024,Marketing Workbook,Executive,Medium,30.7,57.0,25,0.089,0.333,111.7
+WB026,Support Workbook,Finance,Low,31.7,58.8,25,0.067,0.286,111.7
+WB025,Support Scorecard,Marketing,Medium,26.2,53.4,25,0.089,0.615,111.5
+WB012,Finance Scorecard,Executive,Medium,31.0,56.7,26,0.022,0.333,111.2
+WB014,Finance Scorecard,Finance,Medium,30.0,56.0,26,0.067,0.286,110.3
+WB022,Finance Pipeline Monitor,Finance,Medium,28.5,55.2,25,0.067,0.286,106.7

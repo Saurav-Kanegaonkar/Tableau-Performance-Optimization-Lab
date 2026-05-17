@@ -1,0 +1,5 @@
+readiness_area,status,owner_team,check_result,recommended_action
+Extract scheduling,At risk,Tableau Server admin,Five high-criticality extracts refresh during the same backgrounder window,Spread schedules across off-peak windows and confirm upstream warehouse completion times.
+Metric certification,Blocked,Finance BI and Sales Ops,Thirty-seven KPI definitions are not certified,Publish only after business owners approve definitions and refresh tests pass.
+Access and security,Needs review,BI platform lead,Three executive workbooks have broad project permissions and no row-level security test record,Validate permissions before promotion and attach access evidence to the release checklist.
+Data validation,Ready with guardrails,Analytics engineering,SQL checks reconcile row counts null rates freshness and finance variance thresholds,Run validation after each extract refresh and escalate failures before stakeholder meetings.

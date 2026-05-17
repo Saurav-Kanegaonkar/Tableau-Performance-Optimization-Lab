@@ -1,0 +1,6 @@
+workbook_id,workbook_name,optimization_pattern,before_load_seconds,after_load_seconds,estimated_seconds_saved,recommendation
+WB008,Executive Scorecard,Heavy custom SQL extract,32.7,12.4,20.3,Create a warehouse view with required grain and business filters before Tableau connects.
+WB015,Ops KPI View,Dashboard tries to answer two jobs,33.1,13.8,19.3,Split executive trend and case detail into separate workbooks with drill-through.
+WB001,Ops Scorecard,High-cardinality quick filters,29.5,9.7,19.8,Use guided filter actions and indexed range filters instead of global itemized lists.
+WB022,Finance KPI Reconciliation,Repeated calculated fields,18.4,11.2,7.2,Materialize recurring finance calculations upstream and certify the shared metric layer.
+WB016,Sales Scorecard,Oversized extract,33.7,18.6,15.1,Hide unused fields, aggregate visible dimensions, and retire duplicate tabs before republishing.

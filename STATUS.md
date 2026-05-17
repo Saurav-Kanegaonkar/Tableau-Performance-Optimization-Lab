@@ -1,17 +1,17 @@
 # Status
 
-Tableau Performance Optimization Lab has been reworked into a distinct BI governance audit lab format.
+Tableau Performance Optimization Lab has been upgraded into an enterprise BI readiness artifact for a Tableau Developer role.
 
 ## Current state
 
-- Distinct visual system and interaction model
-- README includes motivation, outputs, recommendations, and run instructions
-- Methodology note added under `analysis/`
-- Lightweight scoring script added under `scripts/`
-- Screenshot refreshed under `docs/images/dashboard.png`
+- Three distinct artifact surfaces are implemented: workbook triage, SQL and extract tuning, and Tableau Server publishing readiness.
+- README includes project purpose, screenshots with captions, data strategy, role connection, scope, run instructions, and reference practices.
+- Synthetic data documentation now explains source structure, assumptions, and why real Tableau Server logs are not used.
+- The scoring script ranks workbook governance risk and writes `analysis/outputs/workbook_governance_risk.csv`.
+- Fresh screenshots are saved under `docs/images/triage.png`, `docs/images/optimization.png`, and `docs/images/publishing.png`.
 
 ## Next useful improvements
 
-- Replace synthetic data with public or company-adjacent data where available
-- Add unit checks for metric calculations
-- Add deployment link after final review
+- Add a hosted demo link after deployment.
+- Add automated CSV schema checks.
+- Add a sample Tableau workbook mockup if the application process accepts packaged workbook files.

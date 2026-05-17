@@ -7,41 +7,90 @@
   <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-  <main class="audit-shell">
-    <header class="audit-header">
+  <main class="workspace">
+    <header class="topbar">
       <div>
-        <p class="label">BI Governance Audit</p>
+        <p class="eyebrow">Enterprise BI readiness lab</p>
         <h1>Tableau Performance Optimization Lab</h1>
       </div>
-      <p>Profile workbook speed, extract freshness, KPI definition risk, and ad hoc workload before publishing executive views.</p>
+      <p class="header-copy">A working audit console for slow dashboards, extract refresh risk, KPI certification, and Tableau Server publishing readiness.</p>
     </header>
-    <section class="scoreboard" id="scoreboard"></section>
-    <section class="audit-grid">
-      <article class="workbook-list">
-        <p class="label">Workbook profiler</p>
-        <div id="workbooks"></div>
-      </article>
-      <article class="workbook-detail">
-        <p class="label">Selected workbook</p>
-        <h2 id="workbook-title"></h2>
-        <div id="health-bars"></div>
-        <div class="terminal">
-          <span>audit output</span>
-          <pre id="audit-output"></pre>
-        </div>
-      </article>
+
+    <section class="metric-strip" id="summary"></section>
+
+    <nav class="tabs" aria-label="Artifact surfaces">
+      <button class="active" data-surface="triage">Workbook triage</button>
+      <button data-surface="optimization">SQL and extract tuning</button>
+      <button data-surface="publishing">Server readiness</button>
+    </nav>
+
+    <section class="surface active" id="surface-triage" aria-label="Workbook triage">
+      <div class="layout two-column">
+        <aside class="panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Risk ranked assets</p>
+            <strong>Workbook profiler</strong>
+          </div>
+          <div class="workbook-list" id="workbook-list"></div>
+        </aside>
+
+        <section class="panel detail-panel">
+          <div class="detail-head">
+            <div>
+              <p class="eyebrow">Selected workbook</p>
+              <h2 id="workbook-title"></h2>
+            </div>
+            <span class="risk-pill" id="workbook-risk"></span>
+          </div>
+          <div class="stat-grid" id="workbook-stats"></div>
+          <div class="health-grid" id="health-grid"></div>
+          <div class="diagnostic-grid">
+            <section>
+              <h3>Root causes</h3>
+              <ul id="root-causes"></ul>
+            </section>
+            <section>
+              <h3>Next actions</h3>
+              <ul id="next-actions"></ul>
+            </section>
+          </div>
+        </section>
+      </div>
     </section>
-    <section class="qa-lane">
-      <article>
-        <p class="label">What the data says</p>
-        <div id="insights"></div>
-      </article>
-      <article>
-        <p class="label">Publishing recommendation</p>
-        <div id="recommendations"></div>
-      </article>
+
+    <section class="surface" id="surface-optimization" aria-label="SQL and extract tuning">
+      <div class="panel">
+        <div class="panel-heading split">
+          <div>
+            <p class="eyebrow">Optimization queue</p>
+            <strong>Where SQL, extracts, and dashboard design should be fixed first</strong>
+          </div>
+          <span class="queue-total" id="queue-total"></span>
+        </div>
+        <div class="optimization-table" id="optimization-table"></div>
+      </div>
+    </section>
+
+    <section class="surface" id="surface-publishing" aria-label="Server readiness">
+      <div class="layout readiness-layout">
+        <section class="panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Publishing readiness</p>
+            <strong>Tableau Server release risks</strong>
+          </div>
+          <div class="readiness-list" id="readiness-list"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Release checklist</p>
+            <strong>Executive dashboard gate</strong>
+          </div>
+          <div class="checklist" id="release-checklist"></div>
+        </section>
+      </div>
     </section>
   </main>
+
   <script src="src/data.js"></script>
   <script src="src/app.js"></script>
 </body>
